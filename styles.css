@@ -1,35 +1,31 @@
-/*  your css code here. If applicable */
-/* Set body background color to skyblue */
-:root {
-  background-color: skyblue;
+*{
+    background-color: lightblue;
 }
-
-/* Set background color of first paragraph to black */
-p:first-child {
-  background-color: black;
+p:first-child{
+    background-color: black;
+    color: white;
 }
-
-/* Set color of last paragraph to red */
-p:last-child !important {
-  color: red;
-	
+p:last-of-type{
+    color: red;
 }
-
-/* Set background colors of list items */
-ul li:nth-child(1) {
-  background-color: white;
+li{
+    background-color: gray;
+    padding: 10px;
+    width: 50%;
 }
-
-ul li:nth-child(2) {
-  background-color: lightgray;
+li:first-child{
+    font-size: 22px;
 }
-
-ul li:nth-child(3) {
-  background-color: pink;
+li:last-child{
+    font-size: 22px;
+    background-color:rgb(206, 48, 74);
 }
-ul li:nth-child(4) {
-  background-color: lightgray;
+li:nth-child(even){
+    background-color: white;
 }
-ul li:nth-child(5) {
-  background-color: white;
+li:nth-child(3){
+    background-color:rgb(206, 48, 74);
+}
+li:nth-child(4){
+    background-color:rgb(206, 48, 74);
 }
